@@ -4,25 +4,49 @@
 }
 
 .actor-greet {
-      font-size: 3rem;
-    color: white;
-    font-weight: 900;
-        -webkit-text-stroke: 2px #E21F03;
-    text-shadow: 0px 4px 4px #282828;
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #E21F03;
+  text-shadow: 0px 4px 4px #282828;
 }
 
 
 .sub-heading {
-      font-size: 2rem;
-    color: white;
-    font-weight: 700;
-        -webkit-text-stroke: 2px #E21F03;
-    text-shadow: 0px 4px 4px #282828;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  -webkit-text-stroke: 2px #E21F03;
+  text-shadow: 0px 4px 4px #282828;
 }
 
 
 .horizontal-center {
   display: flex;
-    justify-content: center;
+  justify-content: center;
 
+}
+
+
+.link-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
 }
